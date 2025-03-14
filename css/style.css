@@ -87,7 +87,7 @@ body {
   background-color: #065275;
 }
 
-/* Hamburger Menu */
+/* Header Hamburger Menu */
 .hamburger {
   display: none;
   cursor: pointer;
@@ -97,7 +97,7 @@ body {
   width: 30px;
 }
 
-/* Mobile Menu */
+/* Header Mobile Menu */
 .mobile-menu {
   display: none;
   flex-direction: column;
@@ -129,7 +129,7 @@ body {
   display: flex;
 }
 
-/* Responsive Design */
+/* Header Responsive Design */
 @media (max-width: 874px) {
   .navbar {
     padding: 10px 20px;
