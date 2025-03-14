@@ -25,3 +25,14 @@
   height: auto;
 }
 
+
+/* Responsive Styles */
+@media (max-width: 874px) {
+  .trusted-brands {
+    gap: 30px; 
+  }
+
+  .trusted-brands img {
+    max-width: 130px;
+  }
+}
