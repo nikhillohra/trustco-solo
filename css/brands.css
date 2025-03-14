@@ -1,0 +1,27 @@
+.trusted-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 10px;
+}
+
+.trusted-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.trusted-brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px; /* Adjusted spacing */
+}
+
+.trusted-brands img {
+  width: 9rem;
+  height: auto;
+}
+
