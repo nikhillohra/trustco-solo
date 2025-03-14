@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+/* CSS variables */
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: white;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #f2f5f6;
+  position: relative;
+}
+
+/* Logo */
+.logo img {
+  height: 30px;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #12141d;
+  font-weight: normal;
+}
+
+/* Buttons */
+.btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: normal;
+  transition: 0.3s;
+  background-color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #043a53;
+  color: #ffffff;
+}
+
+.btn-outline {
+  border: 1px solid #e5eaef;
+  color: #12141d;
+  border-radius: 100px;
+}
+
+.btn-primary {
+  background: #043a53;
+  color: #fff;
+  margin: 4px;
+}
+.btn-primary:hover {
+  background-color: #065275;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  visibility: hidden;
+  align-items: center;
+}
+
+.hamburger img {
+  width: 30px; /* Adjust size as needed */
+  height: 30px;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #f2f5f6;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.mobile-menu.active {
+  display: flex;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .logo img {
+    height: 35px;
+  }
+
+  .btn {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 874px) {
+  .logo img {
+    height: 30px;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .nav-links,
+  .nav-buttons {
+    display: none;
+  }
+  .hamburger {
+    visibility: visible;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 468px) {
+  .logo img {
+    height: 25px;
+  }
+  .hamburger {
+    visibility: visible;
+    padding: 10px;
+  }
+  .mobile-menu {
+    padding: 10px 0;
+  }
+
+  .mobile-menu a {
+    font-size: 0.9rem;
+  }
+}
