@@ -51,8 +51,18 @@
   justify-content: center;
   text-align: center;
   padding: 60px 20px;
-  background-color: rgb(242, 245, 246);
-  height: 80vh;
+  background-color: #f2f5f6;
+  height: auto;  
+  width: 100%;
+  position: relative; 
+  overflow: hidden; 
+}
+
+/* next section starts below the hero */
+.c-wrapper {
+  margin-top: 0;
+  padding-top: 20px;
+  position: relative;
 }
 
 /* Hero Content */
