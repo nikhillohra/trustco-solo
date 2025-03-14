@@ -104,3 +104,43 @@
   color: #4f5665;
   line-height: 1.6;
 }
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .benefits {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-card {
+      width: 100%; /* Ensure it takes full width */
+      text-align: center; /* Align text to the left */
+      padding-left: 10px; /* Adjust left padding if needed */
+      align-self: flex-start; /* Align to the start of flex container */
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .benefit-title {
+      width: fit-content; /* Avoid stretching */
+    }
+  
+    .benefit-heading {
+      font-size: 2.5rem;
+    }
+  
+    .benefit-description {
+      font-size: 1rem;
+    }
+  }
+  
+  
