@@ -1,0 +1,106 @@
+/* Benefits Section */
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  gap: 50px;
+}
+
+/* Header Card */
+.header-card {
+  background-color: #fff;
+  padding: 15px;
+  color: #2d3436;
+  border: none;
+  box-shadow: none;
+  text-align: start;
+  width: 350px;
+}
+
+.benefit-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #161c2d;
+  margin-bottom: 15px;
+}
+
+/* benefit-description */
+.benefit-description {
+  font-size: 1.2rem;
+  color: #4f5665;
+  line-height: 1.6;
+}
+
+/* Benefit title button */
+.benefit-title {
+  background-color: #043a53;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.benefit-title:hover {
+  background-color: #032a3e;
+  transform: scale(1.05);
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Benefit Cards */
+.card {
+  background-color: #f2f5f6;
+  border-radius: 12px;
+  padding: 30px;
+  width: 280px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  background-color: #ffffff;
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #161c2d;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.card:hover h3 {
+  color: #043a53;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #4f5665;
+  line-height: 1.6;
+}
