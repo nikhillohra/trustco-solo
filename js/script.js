@@ -14,3 +14,28 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+
+// ---------------------------NUMBERS SECTION
+document.addEventListener("DOMContentLoaded", () => {
+    const counters = document.querySelectorAll(".count");
+    const speed = 1000; // Lower = faster
+  
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = +counter.closest(".number-card").getAttribute("data-target"); // Correct selection
+            let current = +counter.innerText;
+            const increment = Math.ceil(target / speed);
+  
+            if (current < target) {
+                counter.innerText = current + increment;
+                requestAnimationFrame(updateCount);
+            } else {
+                counter.innerText = target;
+            }
+        };
+  
+        updateCount();
+    });
+});
