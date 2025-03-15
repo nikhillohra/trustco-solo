@@ -33,3 +33,18 @@
     font-weight: 400;
   }
   
+  /* Responsive for Mobile */
+  @media (max-width: 768px) {
+    .numbers-container {
+      gap: 20px;
+    }
+  
+    .number-card {
+      font-size: 1.6rem; 
+    }
+  
+    .number-card p {
+      font-size: 0.95rem;
+    }
+  }
+  
