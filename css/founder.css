@@ -1,0 +1,74 @@
+/* Meet Our Founder Section */
+#meet-founder {
+    background-color: #fff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Container */
+  .founder-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px;
+  }
+  
+  /* Left Text Column */
+  .founder-text {
+    flex: 1;
+  }
+  
+  .founder-text h2 {
+    font-size: 2.5rem;
+    color: #161c2d;
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .founder-info {
+    margin-bottom: 30px;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  /* CTA Button */
+  .cta-button-founder {
+    background-color: #033a50;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 24px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button-founder:hover {
+    background-color: #022c3c;
+  }
+  
+  /* Right Image Column */
+  .founder-images {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main Founder Image */
+  .founder-main {
+    width: 100%;
+  }
+  
+  
