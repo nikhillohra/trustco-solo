@@ -69,9 +69,10 @@ body {
 }
 
 .btn-outline {
-  background-color: transparent;
-  border: 2px solid #043275;
-  color: #043275;
+  background-color: white;
+  color: #12141ddf;
+  
+  
 }
 
 .btn-outline:hover {
@@ -130,11 +131,14 @@ body {
 }
 
 /* Header Responsive Design */
-@media (max-width: 874px) {
+@media (max-width: 970px) {
   .navbar {
     padding: 10px 20px;
   }
 
+  .logo img {
+    height: 25px;
+  }
   .nav-links,
   .nav-buttons {
     display: none;

@@ -1,0 +1,89 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Section Styling */
+#building-bridges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.bridge-container {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Image Section */
+.image-section {
+  position: relative;
+  width: 50%;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Text Section */
+.text-section {
+  width: 50%;
+  padding: 40px;
+}
+
+.text-section h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #333;
+}
+
+.text-section h2 span {
+  color: #92A7B0;
+}
+
+.text-section p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* CTA Button */
+.cta-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #033a50;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.cta-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.cta-button:hover {
+  background-color: #022c3c;
+}
