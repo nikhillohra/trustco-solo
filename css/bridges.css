@@ -87,3 +87,37 @@ body {
 .cta-button:hover {
   background-color: #022c3c;
 }
+
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .bridge-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section {
+    order: 1;
+    width: 100%;
+    padding: 20px; /
+  }
+
+  .text-section h2 {
+    font-size: 28px; 
+  }
+
+  .text-section p {
+    font-size: 14px;
+  }
+
+  .image-section {
+    order: 2; 
+    width: 100%;
+  }
+
+  
+  .cta-button {
+    margin: 20px auto 0; 
+  }
+}
+
