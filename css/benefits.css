@@ -34,23 +34,30 @@
 }
 
 /* Benefit title button */
-.benefit-title {
-  background-color: #043a53;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 1.1rem;
-  font-weight: 500;
-  display: inline-block;
+ .benefit-title {
+  background-color: #033a50;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 24px;
   margin-bottom: 20px;
-  text-align: left;
-  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
 }
 
 .benefit-title:hover {
+  background-color: #022c3c;
+}
+
+
+/* .benefit-title:hover {
   background-color: #032a3e;
   transform: scale(1.05);
-}
+} */
 
 /* Cards Section */
 .cards {
