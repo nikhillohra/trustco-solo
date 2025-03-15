@@ -1,5 +1,5 @@
 /* CTA Buttons */
-.cta-buttons {
+.cta-buttons-hero {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -10,14 +10,16 @@
 /* Get Started Button */
 .btn-get {
   background-color: #043a53;
-  box-shadow: 0 4px 8px 0 #043a5385, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: white;
   font-weight: bold;
-  padding: 20px 20px;
+  padding: 16px 24px;
   border-radius: 50px;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
+  box-shadow: 0px 23px 47px 0px rgba(4, 58, 83, 0.24);
+
+
 }
 
 /* Video Button */
@@ -34,14 +36,13 @@
   font-weight: normal;
   transition: 0.3s;
   color: #043a53;
-
   gap: 10px;
 }
 
 /* Play Button Icon */
 .play-button {
-  width: 24px;
-  height: 24px;
+  width: 35px;
+  height: 35px;
 }
 
 /* Hero Section */
