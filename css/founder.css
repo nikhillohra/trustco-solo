@@ -73,6 +73,14 @@
   
   /* Responsive Media Query */
   @media (max-width: 768px) {
+
+    #meet-founder {
+      background-color: #fff;
+      padding: 20px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
     .founder-container {
       flex-direction: column;
       text-align: center;

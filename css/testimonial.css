@@ -1,4 +1,4 @@
-/* Base styles for the testimonials section */
+/* Testimonials section */
 .testimonials {
   padding: 40px 60px;
   width: 100%;
@@ -125,4 +125,67 @@
 
 .testimonials__see-all--mobile {
   display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .testimonials {
+    padding: 20px;
+  }
+
+  /* Header styling */
+  .testimonials__header {
+    justify-content: center;
+  }
+
+  .testimonials__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .testimonials__content {
+    flex-direction: column-reverse;
+  }
+
+  .testimonial__card:nth-child(n + 2) {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .testimonials__indicators {
+    margin-bottom: 25px;
+  }
+
+  .testimonials__see-all--desktop {
+    display: none;
+  }
+
+  .testimonials__see-all--mobile {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Indicators (navigation dots) */
+  .testimonials__indicators {
+    margin-top: 10px;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+  .testimonials__see-all--desktop {
+    display: block;
+  }
+
+  .testimonials__see-all--mobile {
+    display: none;
+  }
+
+  .testimonial__card {
+    flex: 1 1 calc(50% - 20px);
+  }
 }

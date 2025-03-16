@@ -46,5 +46,12 @@
     .number-card p {
       font-size: 0.95rem;
     }
+
+    #numbers {
+      text-align: center;
+      margin: 20px auto;
+      max-width: full;
+      padding: 20px 40px;
+    }
   }
   
