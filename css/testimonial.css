@@ -1,0 +1,128 @@
+/* Base styles for the testimonials section */
+.testimonials {
+  padding: 40px 60px;
+  width: 100%;
+  background: #f2f5f6;
+  margin: auto;
+}
+
+/* Header styling */
+.testimonials__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonials__title {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  padding: 10px 20px;
+}
+
+/* "See All" link base styles */
+.testimonials__see-all {
+  font-size: 0.875rem;
+  color: #043a53;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* Content container */
+.testimonials__content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+/* Cards container */
+.testimonials__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+/* Individual testimonial card */
+.testimonial__card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 100%;
+}
+
+/* Quote icons  */
+.testimonial__quote-icon {
+  font-size: 40px;
+  color: #ffc107;
+  line-height: 1;
+}
+
+.testimonial__quote-icon.closing {
+  float: right;
+  margin-left: 10px;
+}
+
+/* Quote text */
+.testimonial__quote {
+  font-size: 1rem;
+  color: #333333;
+  margin: 5px 0 10px;
+  word-wrap: break-word;
+}
+
+/* Author section */
+.testimonial__author {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.testimonial__author-info {
+  flex: 1;
+}
+
+.testimonial__name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.testimonial__title {
+  font-size: 0.75rem;
+  color: #666666;
+  margin: 0;
+}
+
+/* Indicators (navigation dots) */
+.testimonials__indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.indicator__dot {
+  width: 14px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #cccccc;
+  margin: 0 4px;
+}
+
+.indicator__dot--active {
+  width: 55px;
+  background-color: #333333;
+}
+
+.testimonials__see-all--mobile {
+  display: none;
+}

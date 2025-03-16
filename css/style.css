@@ -158,6 +158,11 @@ body {
   .mobile-menu.active {
     display: flex;
   }
+
+  .btn-primary {
+    background: white;
+    color: white;
+  }
 }
 
 /* Footer */
