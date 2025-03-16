@@ -9,7 +9,6 @@
 
 .trusted-heading {
   font-size: 18px;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -25,14 +24,17 @@
   height: auto;
 }
 
-
 /* Responsive Styles */
 @media (max-width: 874px) {
   .trusted-brands {
-    gap: 30px; 
+    gap: 30px;
+  }
+
+  .trusted-heading {
+    font-size: 10px;
   }
 
   .trusted-brands img {
-    max-width: 130px;
+    max-width: 90px;
   }
 }

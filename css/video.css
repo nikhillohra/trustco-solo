@@ -114,6 +114,11 @@
   }
   
   @media (max-width: 600px) {
+
+    #video-section{
+      margin: auto;
+    }
+    
     .left-side {
       font-size: 1.8rem;
     }

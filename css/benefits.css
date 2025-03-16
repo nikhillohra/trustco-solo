@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 20px;
+  padding: 40px 20px;
   background-color: #ffffff;
   gap: 50px;
 }
@@ -118,6 +118,7 @@
     .benefits {
       flex-direction: column;
       align-items: center;
+      padding: 20 20px;
     }
   
     .header-card {
@@ -142,11 +143,11 @@
     }
   
     .benefit-heading {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
   
     .benefit-description {
-      font-size: 1rem;
+      font-size: 0.8rem;
     }
   }
   

@@ -40,18 +40,18 @@
     }
   
     .number-card {
-      font-size: 1.6rem; 
+      font-size: 2rem; 
     }
   
     .number-card p {
-      font-size: 0.95rem;
+      font-size: 10px;
     }
 
     #numbers {
       text-align: center;
       margin: 20px auto;
       max-width: full;
-      padding: 20px 40px;
+      padding: 0;
     }
   }
   
