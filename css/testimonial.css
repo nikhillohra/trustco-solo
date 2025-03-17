@@ -1,6 +1,6 @@
 /* Testimonials section */
 .testimonials {
-  padding: 40px 60px;
+  padding: 40px 100px;
   width: 100%;
   background: #f2f5f6;
   margin: auto;
@@ -39,7 +39,7 @@
 .testimonials__container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0px;
+  gap: 2rem;
   margin-top: 10px;
 }
 
@@ -155,10 +155,6 @@
     transition: all 0.3s ease-in-out;
   }
 
-  /* .testimonials__indicators {
-    margin-bottom: 25px;
-  } */
-
   .testimonials__see-all--desktop {
     display: none;
     padding: 0px;
@@ -178,7 +174,7 @@
   }
 }
 
-/* Desktop Styles */
+/* Desktop Design */
 @media (min-width: 768px) {
   .testimonials__see-all--desktop {
     display: block;

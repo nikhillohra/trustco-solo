@@ -1,3 +1,4 @@
+/* Trusted Brands Section */
 .trusted-wrapper {
   display: flex;
   flex-direction: column;
@@ -15,8 +16,9 @@
 .trusted-brands {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 50px; /* Adjusted spacing */
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 50px;
 }
 
 .trusted-brands img {

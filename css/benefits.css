@@ -16,7 +16,7 @@
   border: none;
   box-shadow: none;
   text-align: start;
-  width: 350px;
+  width: 50%;
 }
 
 .benefit-heading {
@@ -54,20 +54,20 @@
 }
 
 
-/* .benefit-title:hover {
+.benefit-title:hover {
   background-color: #032a3e;
   transform: scale(1.05);
-} */
+}
 
 /* Cards Section */
 .cards {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
+
 }
 
-/* Individual Benefit Cards */
+/* Benefit Cards */
 .card {
   background-color: #f2f5f6;
   border-radius: 12px;
@@ -122,10 +122,10 @@
     }
   
     .header-card {
-      width: 100%; /* Ensure it takes full width */
-      text-align: center; /* Align text to the left */
-      padding-left: 10px; /* Adjust left padding if needed */
-      align-self: flex-start; /* Align to the start of flex container */
+      width: 100%; 
+      text-align: center; 
+      padding-left: 10px; 
+      align-self: flex-start; 
     }
   
     .cards {
@@ -139,7 +139,7 @@
     }
   
     .benefit-title {
-      width: fit-content; /* Avoid stretching */
+      width: fit-content; 
     }
   
     .benefit-heading {

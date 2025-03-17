@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrustCo</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/brands.css">
@@ -15,13 +17,14 @@
     <link rel="stylesheet" href="css/founder.css">
     <link rel="stylesheet" href="css/testimonial.css">
     <link rel="stylesheet" href="css/blogs.css">
+    <link rel="stylesheet" href="css/cta-banner.css">
 </head>
 
 <body>
     <!-- Header Section -->
     <header id="header" class="header">
+        <!-- NAVBAR -->
         <nav class="navbar">
-            <!-- Logo Header -->
             <div class="logo">
                 <img src="assets/images/logo.svg" alt="TrustCo Logo">
             </div>
@@ -32,7 +35,7 @@
                 <li><a href="#">Solutions</a></li>
                 <li><a href="#">Company</a></li>
                 <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
             </ul>
 
             <!-- Login & Sign-up Buttons -->
@@ -63,7 +66,7 @@
     <section id="hero">
         <div class="container">
             <div class="hero-content">
-                <!-- Left Image -->
+                <!-- Hero Image (Left)-->
                 <img src="assets/images/hero-left.svg" alt="User" class="hero-img left1-img">
 
                 <!-- Hero Text -->
@@ -80,12 +83,13 @@
                     </div>
                 </div>
 
-                <!-- New Image Container -->
+                <!-- Hero Images (Right) -->
                 <div class="hero-images">
                     <img src="assets/images/hero-left.svg" alt="User" class="hero-img left-img">
                     <img src="assets/images/hero-right.svg" alt="User" class="hero-img right-img">
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Trusted Brand Section -->
@@ -128,9 +132,8 @@
             <h1 class="benefit-heading">Beneficial Elements</h1>
             <p class="benefit-description">An awesome & powerful tool for your business to increase revenue.</p>
         </div>
+
         <div class="cards">
-
-
             <!-- Benefit Cards -->
             <div class="card">
                 <img src="assets/benefits/happy.svg" alt="Happy Customers Icon">
@@ -167,12 +170,12 @@
                     and <span>Customers</span>
                 </h2>
                 <p>
-                    with evaluating in-depth variety of data sets and including the speed
-                    of tech adaptation, we can build bridges between any companies and
-                    their customers.
+                    By evaluating in-depth data sets and analyzing the speed of tech adaptation,
+                    we build seamless bridges between companies and their customers.
                 </p>
-                <button class="cta-button-bridge">View Reports <span><img src="assets/icons/rightarrow.svg"
-                            alt=""></span></button>
+                <button class="cta-button-bridge">
+                    View Reports <span><img src="assets/icons/rightarrow.svg" alt="Arrow"></span>
+                </button>
             </div>
         </div>
     </section>
@@ -208,12 +211,16 @@
             <div class="founder-text">
                 <h2>Meet Our Founder</h2>
                 <blockquote>
-                    “I think you're better off finding the money to hire someone than actually find a co-founder. The
-                    main reason? You probably won't find someone as passionate as you are about the organization you're
-                    building. And keep in mind, I have no clue who you are or what you're building so that's no judgment
-                    on you or the idea, just the reality I've observed over 20 years of startups.”
+                    "I think you're better off finding the money to hire someone than actually finding a co-founder.
+                    While it's true that no one may match a founder's passion entirely, what sets exceptional team
+                    members apart is their ability to align with a company's mission, bring dedication, and take
+                    ownership as if they were building it themselves. The right individuals don’t just contribute—they
+                    embrace challenges, solve problems, and drive the organization forward with a shared sense of
+                    purpose, proving that passion isn’t limited to founders alone.”
                 </blockquote>
-                <p class="founder-info"><strong>Jason Hound</strong><br>Founder of Trustco.</p>
+                <p class="founder-info">
+                    <strong>Jason Hound</strong><br>Founder of Trustco.
+                </p>
                 <button class="cta-button-founder">
                     See Team Behind Our Success
                     <img src="assets/icons/rightarrow.svg" alt="rightarrow">
@@ -222,13 +229,12 @@
 
             <!-- Right Content -->
             <div class="founder-images">
-                <!-- Primary Founder Image -->
                 <img src="assets/images/founder.svg" alt="Founder of Trustco" class="founder-main" />
             </div>
         </div>
     </section>
 
-    <!-- Testimonial Section -->
+
 
     <!-- Testimonial Section -->
     <section class="testimonials">
@@ -273,11 +279,13 @@
         <a href="#" class="testimonials__see-all testimonials__see-all--mobile">See All →</a>
     </section>
 
+    <!-- Blogs Section -->
     <section id="blogs">
         <div class="header-blog">
             <h2>What's new on <span class="brand">Trustco.</span>?</h2>
             <a href="#" class="see-all">See All →</a>
         </div>
+
         <div class="blog-container">
             <div class="blog-card">
                 <img src="assets/blogs/blog1.svg" alt="Blog Image">
@@ -286,7 +294,7 @@
                     <h3>What Makes an Authentic Employee Profile?</h3>
                     <p class="blog-excerpt">I'm totally unconvinced that two people can find a person they haven't known
                         previously...</p>
-                        <a href="#" class="read-more">Read Story<span class="read-more-arrow">→</span> </a>
+                    <a href="#" class="read-more">Read Story <span class="read-more-arrow">→</span></a>
                 </div>
             </div>
             <div class="blog-card">
@@ -296,7 +304,7 @@
                     <h3 class="blogcard-heading">Why Does It Matter to be Authentic Employee?</h3>
                     <p class="blog-excerpt">I'm totally unconvinced that two people can find a person they haven't known
                         previously...</p>
-                    <a href="#" class="read-more">Read Story<span class="read-more-arrow">→</span> </a>
+                    <a href="#" class="read-more">Read Story <span class="read-more-arrow">→</span></a>
                 </div>
             </div>
             <div class="blog-card">
@@ -311,9 +319,24 @@
             </div>
         </div>
 
-        <!-- "See All" button below the cards for mobile -->
         <div class="see-all-wrapper">
-            <a href="#" class="see-all">See All →</a>
+            <a href="#" class="see-all see-all2">See All →</a>
+        </div>
+    </section>
+
+    <!-- CTA Banner Section -->
+    <section id="cta-banner">
+        <div class="cta-content">
+            <h1>Take Your Customer<h1>Service To The Next Level</h1>
+            </h1>
+            <button class="cta-subtext">Get 14 Days Free Trial
+                <img src="assets/icons/rightarrow.svg" alt="rightarrow">
+            </button>
+            <p class="cta-note">No credit card required</p>
+
+        </div>
+        <div class="cta-image">
+            <img src="assets/images/cta.svg" alt="Customer Support Professional">
         </div>
     </section>
 

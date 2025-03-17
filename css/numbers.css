@@ -1,7 +1,7 @@
 /* Numbers Section */
 #numbers {
     text-align: center;
-    margin: 50px auto;
+    margin: 40px auto;
     max-width: full;
     padding: 40px 20px;
   }
@@ -20,20 +20,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2rem; 
+    font-size: 4rem; 
     color:  #043A53;
     min-width: 120px; 
   }
   
   /* Text under each number */
   .number-card p {
-    margin-top: 10px;
-    font-size: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
     color:  #404040;
     font-weight: 400;
   }
   
-  /* Responsive for Mobile */
+  /* Responsive Design*/
   @media (max-width: 768px) {
     .numbers-container {
       gap: 20px;
@@ -44,6 +44,7 @@
     }
   
     .number-card p {
+      margin-top: 0.5rem;
       font-size: 10px;
     }
 

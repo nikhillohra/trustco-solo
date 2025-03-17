@@ -1,3 +1,4 @@
+// ---------------------------HEADER NAVBAR SECTION
 document.addEventListener("DOMContentLoaded", function () {
     const hamburger = document.getElementById("hamburger");
     const mobileMenu = document.getElementById("mobileMenu");
@@ -20,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // ---------------------------NUMBERS SECTION
 document.addEventListener("DOMContentLoaded", () => {
     const counters = document.querySelectorAll(".count");
-    const speed = 1000; // Lower = faster
+    const speed = 1000; 
   
     counters.forEach(counter => {
         const updateCount = () => {
@@ -39,21 +40,3 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCount();
     });
 });
-
-let currentIndex = 0;
-const testimonials = document.querySelectorAll('.testimonial-card');
-const dots = document.querySelectorAll('.dot');
-
-function showTestimonial(index) {
-    testimonials.forEach((t, i) => {
-        t.classList.toggle('active', i === index);
-        dots[i].classList.toggle('active', i === index);
-    });
-    currentIndex = index;
-}
-
-// Auto-change every 5 seconds
-setInterval(() => {
-    currentIndex = (currentIndex + 1) % testimonials.length;
-    showTestimonial(currentIndex);
-}, 5000);
