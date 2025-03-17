@@ -69,3 +69,47 @@
   max-width: 40rem;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  #cta-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1rem 0rem 1rem;
+  }
+
+  .cta-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .cta-content h1 {
+    font-size: 2rem;
+  }
+
+  .cta-subtext {
+    font-size: 0.85rem;
+    padding: 12px 20px;
+  }
+
+  .cta-image {
+    position: static;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .cta-image img {
+    max-width: 20rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-image {
+    width: 80%;
+  }
+
+  .cta-image img {
+    max-width: 15rem;
+  }
+}
