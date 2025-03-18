@@ -1,4 +1,4 @@
-/* Site Credits */
+/* Base Styles - Mobile First */
 .site-credits {
     display: flex;
     flex-direction: column;
@@ -63,3 +63,38 @@
     cursor: pointer;
 }
 
+
+/*  Responsive Design */
+
+/* Tablet (768px and up) */
+@media (min-width: 768px) {
+    .site-credits {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    
+    .list {
+        gap: 20px;
+    }
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1024px) {
+    .site-credits {
+        padding: 20px 40px;
+    }
+
+    .site-credits small {
+        font-size: 14px;
+    }
+
+    .language-switcher img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .language-switcher select {
+        font-size: 16px;
+    }
+}
