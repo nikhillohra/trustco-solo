@@ -40,3 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         updateCount();
     });
 });
+
+// ---------------------------SITES-CREDITS SECTION
+const currentYear = new Date().getFullYear();
+document.getElementById("current-year").textContent = `${currentYear}-${currentYear + 1}`;
