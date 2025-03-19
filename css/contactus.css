@@ -290,3 +290,55 @@ textarea:focus {
   transform: scale(1.05);
 }
 
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .contact-form form {
+    grid-template-columns: 1fr;
+  }
+
+  .checkbox-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .checkbox-wrapper {
+    justify-content: center;
+  }
+
+  .checkbox-container button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .input-icon-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  .fas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 19px;
+  }
+
+  h2, p {
+    text-align: center;
+  }
+}
