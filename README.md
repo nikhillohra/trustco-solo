@@ -13,5 +13,5 @@ This is a simple, functional frontend web application built with **HTML**, **CSS
 - 🔹 Simple and fast loading
 - 🔹 Mobile-friendly UI
 
-Figma File Provide by Archi's Academy
+Figma File Provided by Archi's Academy
 
