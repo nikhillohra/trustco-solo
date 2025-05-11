@@ -1,0 +1,115 @@
+/* CTA Banner Section */
+#cta-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0d0f16;
+  color: white;
+  padding: 4rem;
+  margin: 40px 0px 0px 0px;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+/* Left Content */
+.cta-content {
+  flex: 1;
+  max-width: 50%;
+  min-width: 300px;
+  text-align: left;
+}
+
+.cta-content h1 {
+  font-size: 3rem;
+}
+/* CTA Button */
+.cta-subtext {
+  background-color: #f0b73f;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 24px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+  margin-top: 2rem;
+}
+
+.cta-subtext:hover {
+  background-color: #b38015;
+}
+
+.cta-note {
+  font-size: 0.875rem;
+  color: #ccc;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Right Image */
+.cta-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  max-width: 60rem;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta-image img {
+  max-width: 100%;
+  object-fit: contain;
+  max-width: 40rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #cta-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1rem 0rem 1rem;
+  }
+
+  .cta-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .cta-content h1 {
+    font-size: 2rem;
+  }
+
+  .cta-subtext {
+    font-size: 0.85rem;
+    padding: 12px 20px;
+  }
+
+  .cta-image {
+    position: static;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .cta-image img {
+    max-width: 20rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-image {
+    width: 80%;
+  }
+
+  .cta-image img {
+    max-width: 15rem;
+  }
+}

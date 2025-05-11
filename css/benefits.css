@@ -1,0 +1,154 @@
+/* Benefits Section */
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  gap: 50px;
+}
+
+/* Header Card */
+.header-card {
+  background-color: #fff;
+  padding: 15px;
+  color: #2d3436;
+  border: none;
+  box-shadow: none;
+  text-align: start;
+  width: 50%;
+}
+
+.benefit-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #161c2d;
+  margin-bottom: 15px;
+}
+
+/* benefit-description */
+.benefit-description {
+  font-size: 1.2rem;
+  color: #4f5665;
+  line-height: 1.6;
+}
+
+/* Benefit title button */
+ .benefit-title {
+  background-color: #033a50;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 24px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.benefit-title:hover {
+  background-color: #022c3c;
+}
+
+
+.benefit-title:hover {
+  background-color: #032a3e;
+  transform: scale(1.05);
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+/* Benefit Cards */
+.card {
+  background-color: #f2f5f6;
+  border-radius: 12px;
+  padding: 30px;
+  width: 280px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  background-color: #ffffff;
+}
+
+.card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #161c2d;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.card:hover h3 {
+  color: #043a53;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #4f5665;
+  line-height: 1.6;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .benefits {
+      flex-direction: column;
+      align-items: center;
+      padding: 20 20px;
+    }
+  
+    .header-card {
+      width: 100%; 
+      text-align: center; 
+      padding-left: 10px; 
+      align-self: flex-start; 
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .benefit-title {
+      width: fit-content; 
+    }
+  
+    .benefit-heading {
+      font-size: 1.5rem;
+    }
+  
+    .benefit-description {
+      font-size: 0.8rem;
+    }
+  }
+  
+  

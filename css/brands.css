@@ -1,0 +1,42 @@
+/* Trusted Brands Section */
+.trusted-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 10px;
+}
+
+.trusted-heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.trusted-brands {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.trusted-brands img {
+  width: 9rem;
+  height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 874px) {
+  .trusted-brands {
+    gap: 30px;
+  }
+
+  .trusted-heading {
+    font-size: 10px;
+  }
+
+  .trusted-brands img {
+    max-width: 90px;
+  }
+}

@@ -1,0 +1,58 @@
+/* Numbers Section */
+#numbers {
+    text-align: center;
+    margin: 40px auto;
+    max-width: full;
+    padding: 40px 20px;
+  }
+  
+  /* Container for the stats */
+  .numbers-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+  }
+  
+  /* Individual Stat Cards */
+  .number-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem; 
+    color:  #043A53;
+    min-width: 120px; 
+  }
+  
+  /* Text under each number */
+  .number-card p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color:  #404040;
+    font-weight: 400;
+  }
+  
+  /* Responsive Design*/
+  @media (max-width: 768px) {
+    .numbers-container {
+      gap: 20px;
+    }
+  
+    .number-card {
+      font-size: 2rem; 
+    }
+  
+    .number-card p {
+      margin-top: 0.5rem;
+      font-size: 10px;
+    }
+
+    #numbers {
+      text-align: center;
+      margin: 20px auto;
+      max-width: full;
+      padding: 0;
+    }
+  }
+  

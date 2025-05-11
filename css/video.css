@@ -1,0 +1,138 @@
+/* Video Section */
+#video-section {
+  margin: 50px auto;
+  background: #043a53;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px 10px 10px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+  padding: 20px;
+  text-align: start;
+}
+
+.left-side {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.right-side {
+  font-size: 22px;
+  font-weight: lighter !important;
+  line-height: 1.5;
+}
+
+.yellow-text {
+  color: #f0b73f;
+}
+
+.video-wrapper {
+  width: 90%;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.video-thumbnail:hover img {
+  opacity: 0.8;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 40px;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Responsive Styling */
+@media (max-width: 874px) {
+  .text-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+    text-align: start;
+  }
+
+  .left-side {
+    font-size: 1.8rem;
+  }
+
+  .right-side {
+    font-size: 14px;
+  }
+
+  .video-wrapper {
+    width: 90%;
+    margin-top: 15px;
+  }
+
+  .play-icon {
+    font-size: 30px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  #video-section {
+    margin: auto;
+  }
+
+  .left-side {
+    font-size: 1.8rem;
+  }
+
+  .right-side {
+    font-size: 14px;
+  }
+
+  .video-wrapper {
+    width: 95%;
+  }
+
+  .play-icon {
+    font-size: 25px;
+    padding: 12px;
+  }
+}
