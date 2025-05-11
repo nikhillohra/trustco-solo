@@ -134,5 +134,6 @@
   .play-icon {
     font-size: 25px;
     padding: 12px;
+    overlay: multiply;
   }
 }
